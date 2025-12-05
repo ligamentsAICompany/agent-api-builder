@@ -1,0 +1,9 @@
+.git
+.venv
+__pycache__
+generated_apis
+git_repos
+*.pyc
+.env
+*.zip
+*.log
