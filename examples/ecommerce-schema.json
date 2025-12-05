@@ -1,0 +1,32 @@
+{
+  "User": {
+    "id": "integer",
+    "username": "string",
+    "email": "string",
+    "password": "string",
+    "first_name": "string",
+    "last_name": "string",
+    "is_active": "boolean",
+    "created_at": "datetime"
+  },
+  "Product": {
+    "id": "integer",
+    "name": "string",
+    "description": "text",
+    "price": "float",
+    "stock_quantity": "integer",
+    "category": "string",
+    "is_available": "boolean",
+    "created_at": "datetime",
+    "updated_at": "datetime"
+  },
+  "Order": {
+    "id": "integer",
+    "user_id": "integer",
+    "total_amount": "float",
+    "status": "string",
+    "shipping_address": "text",
+    "order_date": "datetime",
+    "delivered_date": "datetime"
+  }
+}
